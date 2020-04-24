@@ -93,19 +93,6 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./assets/styles/styles.scss":
-/*!***********************************!*\
-  !*** ./assets/styles/styles.scss ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-
-
-/***/ }),
-
 /***/ "./components/dashboard.jsx":
 /*!**********************************!*\
   !*** ./components/dashboard.jsx ***!
@@ -117,92 +104,89 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_styles_styles_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/styles/styles.scss */ "./assets/styles/styles.scss");
-/* harmony import */ var _assets_styles_styles_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_styles_styles_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
-/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/home/ddhoogduin/programs/BEAT-COVID_interface/components/dashboard.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
 class Dashboard extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    return __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Card"], {
+    return __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9,
+        lineNumber: 8,
         columnNumber: 13
       }
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "https://react.semantic-ui.com/images/avatar/large/matthew.png",
       wrapped: true,
       ui: false,
       __self: this,
       __source: {
         fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 17
+      }
+    }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
         lineNumber: 10,
         columnNumber: 17
       }
-    }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Card"].Content, {
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 11,
-        columnNumber: 17
+        columnNumber: 21
       }
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Card"].Header, {
+    }, "Matthew"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 12,
         columnNumber: 21
       }
-    }, "Matthew"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Card"].Meta, {
+    }, __jsx("span", {
+      className: `date example`,
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 13,
-        columnNumber: 21
-      }
-    }, __jsx("span", {
-      className: "date",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14,
         columnNumber: 25
       }
-    }, "Joined in 2015")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Card"].Description, {
+    }, "Joined in 2015")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16,
+        lineNumber: 15,
         columnNumber: 21
       }
-    }, "r Matthew is a musician living in Nashville.")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Card"].Content, {
+    }, "r Matthew is a musician living in Nashville.")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 19,
         columnNumber: 17
       }
     }, __jsx("a", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 20,
         columnNumber: 21
       }
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Icon"], {
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
       name: "user",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 21,
         columnNumber: 25
       }
     }), "22 Friends")));

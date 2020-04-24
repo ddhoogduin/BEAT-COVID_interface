@@ -1,23 +1,21 @@
 // implementing sass
 
 const withSass = require('@zeit/next-sass')
-const withCSS = require('@zeit/next-css')
 
-module.exports = withSass({
-    cssModules: true
-})
-module.exports = withCSS({
-    webpack: function (config) {
+module.exports = {
+    webpack(config) {
         config.module.rules.push({
-            test: /\.(eot|woff|woff2|ttf|svg|png|jpg|gif)$/,
+            test: /\.(png|svg)$/,
             use: {
                 loader: 'url-loader',
                 options: {
-                    limit: 100000,
-                    name: '[name].[ext]'
-                }
-            }
+                    limit: 8192,
+                    publicPath: '/_next/static/',
+                    outputPath: 'static/',
+                    name: '[name].[ext]',
+                },
+            },
         })
         return config
-    }
-})
+    },
+}

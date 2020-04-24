@@ -1,18 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./assets/styles/styles.scss":
-/*!***********************************!*\
-  !*** ./assets/styles/styles.scss ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-
-
-/***/ }),
-
 /***/ "./components/dashboard.jsx":
 /*!**********************************!*\
   !*** ./components/dashboard.jsx ***!
@@ -29,9 +16,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _assets_styles_styles_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/styles/styles.scss */ "./assets/styles/styles.scss");
-/* harmony import */ var _assets_styles_styles_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_styles_styles_scss__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! semantic-ui-react */ "./node_modules/semantic-ui-react/dist/es/index.js");
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! semantic-ui-react */ "./node_modules/semantic-ui-react/dist/es/index.js");
 
 
 
@@ -43,7 +28,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
 
 
 
@@ -62,80 +46,80 @@ var Dashboard = /*#__PURE__*/function (_React$Component) {
   Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Dashboard, [{
     key: "render",
     value: function render() {
-      return __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Card"], {
+      return __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__["Card"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9,
+          lineNumber: 8,
           columnNumber: 13
         }
-      }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Image"], {
+      }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__["Image"], {
         src: "https://react.semantic-ui.com/images/avatar/large/matthew.png",
         wrapped: true,
         ui: false,
         __self: this,
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 17
+        }
+      }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__["Card"].Content, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 10,
           columnNumber: 17
         }
-      }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Card"].Content, {
+      }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__["Card"].Header, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11,
-          columnNumber: 17
+          columnNumber: 21
         }
-      }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Card"].Header, {
+      }, "Matthew"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__["Card"].Meta, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12,
           columnNumber: 21
         }
-      }, "Matthew"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Card"].Meta, {
+      }, __jsx("span", {
+        className: "date example",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13,
-          columnNumber: 21
-        }
-      }, __jsx("span", {
-        className: "date",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14,
           columnNumber: 25
         }
-      }, "Joined in 2015")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Card"].Description, {
+      }, "Joined in 2015")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__["Card"].Description, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 15,
           columnNumber: 21
         }
-      }, "r Matthew is a musician living in Nashville.")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Card"].Content, {
+      }, "r Matthew is a musician living in Nashville.")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__["Card"].Content, {
         extra: true,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 19,
           columnNumber: 17
         }
       }, __jsx("a", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 20,
           columnNumber: 21
         }
-      }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Icon"], {
+      }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__["Icon"], {
         name: "user",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 21,
           columnNumber: 25
         }
       }), "22 Friends")));
@@ -53396,7 +53380,7 @@ var DECREMENT_COUNTER = "DECREMENT_COUNTER";
 
 /***/ }),
 
-/***/ 4:
+/***/ 2:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fddhoogduin%2Fprograms%2FBEAT-COVID_interface%2Fpages%2Findex.jsx ***!
   \*******************************************************************************************************************************************/
@@ -53419,5 +53403,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

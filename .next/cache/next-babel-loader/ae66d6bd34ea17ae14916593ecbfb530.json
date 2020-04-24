@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default __webpack_public_path__ + \"_app.jsx\";","map":{"version":3,"sources":["/home/ddhoogduin/programs/BEAT-COVID_interface/pages/_app.jsx"],"names":["__webpack_public_path__"],"mappings":"AAAA,eAAeA,uBAAuB,GAAG,UAAzC","sourcesContent":["export default __webpack_public_path__ + \"_app.jsx\";"]},"metadata":{},"sourceType":"module"}

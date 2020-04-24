@@ -3,6 +3,10 @@ import {Provider} from 'react-redux';
 import React from 'react';
 import withRedux from "next-redux-wrapper";
 import store from '../redux/store';
+import 'semantic-ui-css/semantic.min.css'
+import "../assets/styles/static.css"
+import "../assets/styles/styles.scss"
+
 
 class CovidApp extends App{
 
