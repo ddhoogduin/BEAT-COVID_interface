@@ -26,6 +26,12 @@ const PatientInfo = (props) =>{
                 Age: <b className={'PatientValues'} >{Patient.age}</b>
             </Menu.Item>
             <Menu.Item>
+                Admitted on: <i className={'PatientValues'} >{Patient.admitted_on}</i>
+            </Menu.Item>
+            <Menu.Item>
+                Admitted to IC: <i className={'PatientValues'} >{Patient.admitted_to_IC}</i>
+            </Menu.Item>
+            <Menu.Item>
                 <Menu.Header>Preconditions<Icon name={'bell'} className={'pull-right'}/></Menu.Header>
                 <Menu.Menu>
                     {renderSubItems(Patient.preconditions)}

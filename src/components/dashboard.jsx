@@ -14,9 +14,11 @@ import {
     Sidebar
 } from 'semantic-ui-react'
 import PatientInfo from "../hooks/patientInfo";
-import LineCharts from "../hooks/linecharts";
+import LineChartsMoving from "../hooks/linecharts-moving";
+import LineChartTabs from "../hooks/linecharts-tabs";
 import UserOptions from '../hooks/userOptions'
 import Clock from 'react-digital-clock';
+import DonutChart from "../hooks/donut-chart";
 
 class Dashboard extends React.Component{
 
@@ -61,13 +63,34 @@ class Dashboard extends React.Component{
                             </Menu>
                         </Grid.Column>
                         <Grid.Column width={13} className={'mainContent-client'}>
-                            <Container fluid>
+                            <Container fluid className={'internal-wrapper'}>
                                 <Grid>
+                                    <Grid.Row>
                                     <Grid.Column width={16}>
                                         <Segment>
-                                            <LineCharts/>
+                                            <LineChartsMoving/>
                                         </Segment>
                                     </Grid.Column>
+                                    </Grid.Row>
+                                    <Grid.Row>
+                                    <Grid.Column width={16}>
+                                        <Segment>
+                                            <LineChartTabs/>
+                                        </Segment>
+                                    </Grid.Column>
+                                    </Grid.Row>
+                                    <Grid.Row>
+                                        <Grid.Column width={8}>
+                                            <Segment>
+                                                <LineChartTabs/>
+                                            </Segment>
+                                        </Grid.Column>
+                                        <Grid.Column width={8}>
+                                            <Segment>
+                                                <DonutChart/>
+                                            </Segment>
+                                        </Grid.Column>
+                                    </Grid.Row>
                                 </Grid>
                             </Container>
                         </Grid.Column>
