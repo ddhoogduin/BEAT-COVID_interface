@@ -94,6 +94,9 @@ $text-color:red;
 .full-size{
   width: 100% !important;
 }
+.full-size.large{
+  height: 80vh !important;
+}
 .main-dashboard, .main-dashboard .pushable{
   min-height: 100vh !important;
 }
