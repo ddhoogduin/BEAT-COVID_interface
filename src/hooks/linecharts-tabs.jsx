@@ -31,7 +31,8 @@ class LinechartsTabs extends React.Component{
                             range: [0, 10000]
                         },
                         xaxis:{
-                            range: ['2020-04-01', '2020-04-29'],
+                            rangeslider: {},
+                            range: ['2020-04-14', '2020-04-29'],
                             type: 'date'
                         }
                     }}
