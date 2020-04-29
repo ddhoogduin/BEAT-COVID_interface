@@ -28,7 +28,7 @@ class LinechartsTabs extends React.Component{
                     data={this.state.data1}
                     layout={{
                         yaxis:{
-                            range: [0, 10000]
+                            range: [0, 8000]
                         },
                         xaxis:{
                             rangeslider: {},
